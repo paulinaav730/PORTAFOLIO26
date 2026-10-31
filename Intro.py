@@ -25,7 +25,7 @@ PROJECTS = [
         "category": "Primeros pasos",
         "description": "Una primera exploración en la creación de aplicaciones interactivas con Streamlit.",
         "image": "mi_primera_app.jpg",
-        "url": "https://mi-primera-app-acnkbmdru6hrq23we4wn5n.streamlit.app/",
+        "url": "https://mi-primera-app-acnkbmdru6hrq23we4wn5n5.streamlit.app/",
     },
     {
         "title": "De texto a voz",
@@ -89,6 +89,48 @@ PROJECTS = [
         "description": "Explora la detección de movimientos como entrada para experiencias interactivas.",
         "image": "deteccion_movimientos.jpg",
         "url": "https://miappclase9-vi2ssx6gwgyvclpfctunyd.streamlit.app/",
+    },
+    {
+        "title": "Detección de dígitos escritos a mano",
+        "category": "Visión por computador · Machine learning",
+        "description": "Dibuja un número y prueba un modelo entrenado para reconocer dígitos escritos a mano.",
+        "image": "deteccion_digitos.jpg",
+        "url": "https://mnistpred-main-clase12.streamlit.app/",
+    },
+    {
+        "title": "Reconocimiento usando modelos de visión",
+        "category": "Visión por computador",
+        "description": "Experimenta con un modelo de visión que interpreta dibujos o imágenes para reconocer lo representado.",
+        "image": "reconocimiento_modelos_vision.jpg",
+        "url": "https://drawrecog-main-clase12.streamlit.app/",
+    },
+    {
+        "title": "Tablero inteligente",
+        "category": "Interacción · Visión por computador",
+        "description": "Explora una experiencia de tablero interactivo que combina trazos y reconocimiento mediante tecnología.",
+        "image": "tablero_inteligente.jpg",
+        "url": "https://histinf-main-clase12.streamlit.app/",
+    },
+    {
+        "title": "Lector de sensor MQTT",
+        "category": "IoT · Sistemas ciberfísicos",
+        "description": "Consulta datos publicados por sensores mediante MQTT y explora la comunicación entre dispositivos.",
+        "image": "lector_sensor_mqtt.jpg",
+        "url": "https://recepmqtt-main-clase.streamlit.app/",
+    },
+    {
+        "title": "Control por voz",
+        "category": "Interacción · Voz",
+        "description": "Prueba una interfaz que utiliza comandos de voz como forma de interacción y control.",
+        "image": "control_por_voz.jpg",
+        "url": "https://ctrlvoice-main-clase.streamlit.app/",
+    },
+    {
+        "title": "Cerradura inteligente",
+        "category": "IoT · Sistemas ciberfísicos",
+        "description": "Explora una cerradura inteligente que integra gestos y mecanismos de interacción física.",
+        "image": "cerradura_inteligente.jpg",
+        "url": "https://cerraduragestosfinal-14.streamlit.app/",
     },
 ]
 
@@ -284,7 +326,7 @@ st.write("")
 # ==========================================================
 st.markdown('<div class="section-heading">Proyectos seleccionados<span style="color:#fff">.</span></div>', unsafe_allow_html=True)
 st.markdown(
-    '<div class="section-note">Diez aplicaciones para explorar. Selecciona “Abrir proyecto” '
+    '<div class="section-note">Dieciséis aplicaciones para explorar. Selecciona “Abrir proyecto” '
     'para visitar cada experiencia en vivo.</div>',
     unsafe_allow_html=True
 )
